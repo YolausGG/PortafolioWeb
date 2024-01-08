@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Yolaus Godoy, Analista Programador - Full Stack">
+    <link rel="icon" type="image/png" href="/img/LogoYG.png">
+
     <link rel="stylesheet" href="/css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
@@ -13,7 +17,8 @@
 
     <script defer src="particles.js"></script>
     <script defer src="javascript/index.js"></script>
-    <title>Portafolios Web YG</title>
+
+    <title>Portafolio de Yolaus Godoy</title>
 </head>
 
 <body>
@@ -21,7 +26,7 @@
     <header>
         <nav class="navbar">
             <a href="#" class="logo-container">
-                <img class="logo" src="img/Logo YG.png" alt="Logo de Yolaus">
+                <img class="logo" src="img/LogoYG.png" alt="Logo de Yolaus">
             </a>
 
             <ul class="nav-menu">
@@ -137,14 +142,14 @@
         <section class="main-container">
             <h2 class="subtitle">Proyectos</h2>
             <article class="grid">
-                <div class="grid-item-proyect">
+                <div id="cardProyectGDB" class="grid-item-proyect">
                     <h3>Gestión de Bovinos</h3>
                     <div class="div-link-proyect">
                         <a class="btnAbrirInfo link-proyect" id="btnGDB">Más Info.</a>
                     </div>
                 </div>
-                <div class="grid-item-proyect">
-                    <h3>E-commerce</h3>
+                <div id="cardProyectEcommerce" class="grid-item-proyect">
+                    <h3>E-Commerce</h3>
                     <div class="div-link-proyect">
                         <a class="btnAbrirInfo link-proyect" id="btnECommerce">Más Info.</a>
                     </div>
@@ -172,20 +177,24 @@
                             de
                             Analista Programador.
                             <br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet odit, numquam vel nobis
-                            maxime tempora cupiditate autem alias cum atque quia expedita repellat aspernatur excepturi
-                            id
-                            voluptas enim obcaecati.
+                            En él se desarrolló un sistema para administrar y gestionar la
+                            sanidad y la consanguinidad en bovinos lecheros de forma sencilla, para el
+                            Establecimiento La Palma S.R.L.
+                            <br>
+                            En cuanto a las herramientas de desarrollo utilizamos JAVA y MySQL para el desarrollo y
+                            manejo de base de datos. En cuanto al IDE utilizado, comenzamos utilizando
+                            IntelliJ IDEA y en la parte final decidimos cambiar a Apache
+                            NetBeans IDE para mayor comodidad a la hora de hacer la interfaz
                         </p>
                         <a class="btnRepositorio"
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
+
                     </div>
-                    <img class="infoProyectImage" src="img/JSLogo.svg" alt="">
+                    <img class="infoProyectImage" src="img/fichaBovino.png" alt="">
                 </div>
                 <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
             </dialog>
             <dialog id="dialogEcommerce">
-
                 <div class="containerInfo">
                     <div class="containerInfoText">
                         <h3 class="titleProyect">E-Commerce</h3>
@@ -194,15 +203,13 @@
                             <br>
                             Desarrollado con las herramientas principales React, Node.js y MySQL
                             <br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet odit, numquam vel nobis
-                            maxime tempora cupiditate autem alias cum atque quia expedita repellat aspernatur excepturi
-                            id
-                            voluptas enim obcaecati.
+                            La idea con este proyecto es ir reafirmando y conociendo nuevos conceptos además de generar
+                            experiencia en lo que viene a ser el Desarrollo Web
                         </p>
                         <a class="btnRepositorio"
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
                     </div>
-                    <img class="infoProyectImage" src="img/JSLogo.svg" alt="">
+                    <img class="infoProyectImage" src="img/ReactLogo.png" alt="">
                 </div>
                 <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
             </dialog>

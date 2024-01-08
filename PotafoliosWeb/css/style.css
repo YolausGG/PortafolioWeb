@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 #particles-js {
     background: rgb(0, 5, 34);
     position: fixed;
@@ -241,6 +243,16 @@ h2 {
     opacity: 1;
 }
 
+#cardProyectGDB {
+    color: black;
+    background-image: url('../img/JSLogo.svg')
+}
+#cardProyectEcommerce{
+    color: black;
+    background-color: white;
+    background-image: url('../img/ReactLogo.png')
+}
+
 .div-link-proyect {
     display: flex;
     align-items: center;
@@ -263,18 +275,20 @@ h2 {
     filter: drop-shadow(0 0px 2px white);
 }
 
-dialog {
+dialog {    
     position: fixed;
     top: 15%;
     left: 15%;
     width: 70%;
     height: 75%;
-    text-align: center;
+    text-align: center;    
     padding: 6px;
+    border: 2px solid black;
     border-radius: 12px;
     transition: all 1.5s;
     box-shadow: 0px 0px 40px 15px black;
-    background-color: aliceblue;
+    background-color: #1b1b1b;
+    color: white;
 }
 
 .btnCerrarInfo {
@@ -283,7 +297,7 @@ dialog {
     top: 8px;
     right: 8px;
     border-radius: 20%;
-    padding: 8px 5px 5px 5px;
+    padding: 5px 5px 2px 5px;
     background: firebrick;
     color: white;
     cursor: pointer;
@@ -291,54 +305,62 @@ dialog {
 }
 
 .btnCerrarInfo:hover {
-    box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 4px white;
 }
 
 .containerInfo {
     display: flex;
-    flex-direction: row;    
+    flex-grow: 3;
+    flex-direction: row;
     height: 100%;
     gap: 28px;
     padding: 28px;
 }
 
-.titleProyect{
+.titleProyect {
     font-size: 24px;
 }
+
 .containerInfoText {
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    justify-content: space-around;    
 }
-.containerInfo p{
-    background-color: aliceblue;
+
+.containerInfo p {
+    font-size: 16px;
+    background-color: #1b1b1b;
     text-align: justify;
+    font-family: 'Inter', sans-serif;
 }
 
 .infoProyectImage {
-    object-fit: cover;
-    min-width: 240px;
-    width: 100%;
+    max-width: 55%;
     height: 100%;
+    object-fit: cover;
     border-radius: 20px;
+    transition: 0.2s;
+}
+
+.infoProyectImage:hover {
+    filter: drop-shadow(0 0px 5px white);
 }
 
 .btnRepositorio {
     color: white;
     width: auto;
     padding: 4px 12px;
-    margin-top: 8px;
     border: 2px solid black;
     border-radius: 4px;
     background: firebrick;
-    justify-self: end;
 }
 
 .btnRepositorio:hover {
     text-shadow: none;
     color: white;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 8px white;
     cursor: pointer;
 }
 
@@ -448,6 +470,10 @@ dialog {
 
     .containerInfo {
         flex-direction: column;
+        align-items: center;
+    }
+    .infoProyectImage{
+        max-width: 100%;
     }
 }
 
