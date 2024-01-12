@@ -37,6 +37,9 @@ Array.prototype.forEach.call(btnsAbrirInfo, (btnAbrirInfo) => {
       if (btnAbrirInfo.id == "btnECommerce" && dialgoInfo.id == "dialogEcommerce") {
         dialgoInfo.showModal()
       }
+      if (btnAbrirInfo.id == "btnPruebaCarrusel" && dialgoInfo.id == "dialogPruebaCarrusel") {
+        dialgoInfo.showModal()
+      }
     })
   })
 })

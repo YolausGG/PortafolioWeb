@@ -247,7 +247,8 @@ h2 {
     color: black;
     background-image: url('../img/JSLogo.svg')
 }
-#cardProyectEcommerce{
+
+#cardProyectEcommerce {
     color: black;
     background-color: white;
     background-image: url('../img/ReactLogo.png')
@@ -262,26 +263,28 @@ h2 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: rgb(67, 74, 82);
-    cursor: pointer;
+
 }
 
 .link-proyect {
+    cursor: pointer;
     font-size: 1.2rem;
     color: white;
+    transition: 0.2s;
 }
 
 .link-proyect:hover {
-    color: black;
-    filter: drop-shadow(0 0px 2px white);
+    scale: 1.1;
+    color: white;
 }
 
-dialog {    
+dialog {
     position: fixed;
     top: 15%;
     left: 15%;
     width: 70%;
     height: 75%;
-    text-align: center;    
+    text-align: center;
     padding: 6px;
     border: 2px solid black;
     border-radius: 12px;
@@ -326,7 +329,7 @@ dialog {
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 .containerInfo p {
@@ -342,6 +345,7 @@ dialog {
     object-fit: cover;
     border-radius: 20px;
     transition: 0.2s;
+    background-color: black;
 }
 
 .infoProyectImage:hover {
@@ -362,6 +366,25 @@ dialog {
     color: white;
     box-shadow: 0px 0px 8px white;
     cursor: pointer;
+}
+
+.containerCarruselInfo {
+    position: relative;    
+}
+
+.conainerFlechitasCarrusel {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.imgCarrusel {
+    width: 350px;
 }
 
 @media (max-width: 830px) {
@@ -472,7 +495,8 @@ dialog {
         flex-direction: column;
         align-items: center;
     }
-    .infoProyectImage{
+
+    .infoProyectImage {
         max-width: 100%;
     }
 }

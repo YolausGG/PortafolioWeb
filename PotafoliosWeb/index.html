@@ -154,10 +154,10 @@
                         <a class="btnAbrirInfo link-proyect" id="btnECommerce">Más Info.</a>
                     </div>
                 </div>
-                <div class="grid-item-proyect">
-                    <h3>Empresa</h3>
+                <div id="cardPruebaCarrusel" class="grid-item-proyect">
+                    <h3>Prueba Carrusel</h3>
                     <div class="div-link-proyect">
-                        <a class="link-proyect" href="">Donald</a>
+                        <a class="btnAbrirInfo link-proyect" id="btnPruebaCarrusel">Más Info.</a>
                     </div>
                 </div>
                 <div class="grid-item-proyect">
@@ -183,8 +183,9 @@
                             <br>
                             En cuanto a las herramientas de desarrollo utilizamos JAVA y MySQL para el desarrollo y
                             manejo de base de datos. En cuanto al IDE utilizado, comenzamos utilizando
-                            IntelliJ IDEA y en la parte final decidimos cambiar a Apache
-                            NetBeans IDE para mayor comodidad a la hora de hacer la interfaz
+                            IntelliJ IDEA pero al final decidimos cambiar a Apache NetBeans IDE.
+                            <br>
+                            Código y Documentación en el Repositorio.
                         </p>
                         <a class="btnRepositorio"
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
@@ -209,7 +210,34 @@
                         <a class="btnRepositorio"
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
                     </div>
-                    <img class="infoProyectImage" src="img/ReactLogo.png" alt="">
+                    <img class="infoProyectImage" src="img/imgInfoEcommerceLogos.png" alt="">
+                </div>
+                <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
+            </dialog>
+            <dialog id="dialogPruebaCarrusel">
+                <div class="containerInfo">
+                    <div class="containerInfoText">
+                        <h3 class="titleProyect">Prueba Carrusel</h3>
+                        <p>Este es el prototipo de un E-Commerce sobre una tienda de Ropa y Accesorios para vestir, que
+                            estamos desarrollando en los tiempos libres con Nicolás Troche.
+                            <br>
+                            Desarrollado con las herramientas principales React, Node.js y MySQL
+                            <br>
+                            La idea con este proyecto es ir reafirmando y conociendo nuevos conceptos además de generar
+                            experiencia en lo que viene a ser el Desarrollo Web
+                        </p>
+                        <a class="btnRepositorio"
+                            href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
+                    </div>
+                    <div class="containerCarruselInfo">
+                        <div id="containerImgCarrusel">
+                            <img class="imgCarrusel" src="/img/imgInfoEcommerceLogos.png" alt="imgCarrusel">
+                        </div>
+                        <div class="conainerFlechitasCarrusel">
+                            <i id="atras">Atras</i>
+                            <i id="adelante">Adelante</i>
+                        </div>
+                    </div>
                 </div>
                 <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
             </dialog>
