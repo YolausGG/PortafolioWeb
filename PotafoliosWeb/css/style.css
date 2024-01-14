@@ -125,7 +125,8 @@ figure {
 .div-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
+    width: 50%;
 }
 
 .div-info div {
@@ -348,10 +349,6 @@ dialog {
     background-color: black;
 }
 
-.infoProyectImage:hover {
-    filter: drop-shadow(0 0px 5px white);
-}
-
 .btnRepositorio {
     color: white;
     width: auto;
@@ -369,7 +366,8 @@ dialog {
 }
 
 .containerCarruselInfo {
-    position: relative;    
+    position: relative;  
+    align-self: center; 
 }
 
 .conainerFlechitasCarrusel {
@@ -387,14 +385,15 @@ dialog {
     width: 350px;
     height: 350px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
-#atras{
+.izqImgCarrusel{
     filter: drop-shadow(0px 0px 1px white); 
     width: 40px;
     cursor: pointer;
 }
-#adelante{
+.derImgCarrusel{
     transform: scaleX(-1);
     filter: drop-shadow(0px 0px 1px white); 
     width: 40px;
@@ -473,6 +472,9 @@ dialog {
         color: white;
     }
 
+    .div-info {
+        width: auto;
+    }
     #fotoYolaus {
         object-fit: cover;
         width: 300px;

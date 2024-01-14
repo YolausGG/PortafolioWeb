@@ -58,9 +58,10 @@
                     <h2>Analista Programador</h2>
                 </header>
 
-                <p>Aumentes tus ventas e impacto teniendo tú página web.
+                <p>Dos años de carrera donde aprendí varios lenguajes y herramientas
+                    como conceptos del Desarrollo de SoftWare.
                     <br>
-                    Llega a más gente y hazle el camino a tu cliente más fácil.
+                    Puedo ser flexible o proactivo, me considero dedicado y bueno a la hora de solucionar problemas
                 </p>
 
                 <div class="divbtncontacto">
@@ -146,19 +147,21 @@
                 <div id="cardProyectGDB" class="grid-item-proyect">
                     <h3>Gestión de Bovinos</h3>
                     <div class="div-link-proyect">
-                        <a class="btnAbrirInfo link-proyect" id="btnGDB">Más Info.</a>
+                        <a class="btnAbrirInfo link-proyect" onclick="cargarCarrusel('GDB')" id="btnGDB">Más Info.</a>
                     </div>
                 </div>
                 <div id="cardProyectEcommerce" class="grid-item-proyect">
                     <h3>E-Commerce</h3>
                     <div class="div-link-proyect">
-                        <a class="btnAbrirInfo link-proyect" id="btnECommerce">Más Info.</a>
+                        <a class="btnAbrirInfo link-proyect" onclick="cargarCarrusel('ECommerce')" id="btnECommerce">Más
+                            Info.</a>
                     </div>
                 </div>
                 <div id="cardPruebaCarrusel" class="grid-item-proyect">
                     <h3>Prueba Carrusel</h3>
                     <div class="div-link-proyect">
-                        <a class="btnAbrirInfo link-proyect" id="btnPruebaCarrusel">Más Info.</a>
+                        <a class="btnAbrirInfo link-proyect" onclick="cargarCarrusel('Prueba')"
+                            id="btnPruebaCarrusel">Más Info.</a>
                     </div>
                 </div>
                 <div class="grid-item-proyect">
@@ -192,7 +195,16 @@
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
 
                     </div>
-                    <img class="infoProyectImage" src="img/fichaBovino.png" alt="">
+                    <div class="containerCarruselInfo">
+                        <div id="idImgCarruselGDB">
+                            <img class="imgCarrusel" src="/img/imgInfoEcommerceLogos.png" alt="Imagen del Carrusel"
+                                loading="lazy">
+                        </div>
+                        <div class="conainerFlechitasCarrusel">
+                            <img class="izqImgCarrusel" id="atrasGDB" src="/img/atras.png" alt="atras">
+                            <img class="derImgCarrusel" id="adelanteGDB" src="/img/atras.png" alt="adelante">
+                        </div>
+                    </div>
                 </div>
                 <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
             </dialog>
@@ -211,7 +223,16 @@
                         <a class="btnRepositorio"
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
                     </div>
-                    <img class="infoProyectImage" src="img/imgInfoEcommerceLogos.png" alt="">
+                    <div class="containerCarruselInfo">
+                        <div id="idImgCarruselECommerce">
+                            <img class="imgCarrusel" src="/img/imgInfoEcommerceLogos.png" alt="Imagen del Carrusel"
+                                loading="lazy">
+                        </div>
+                        <div class="conainerFlechitasCarrusel">
+                            <img class="izqImgCarrusel" id="atrasECommerce" src="/img/atras.png" alt="atras">
+                            <img class="derImgCarrusel" id="adelanteECommerce" src="/img/atras.png" alt="adelante">
+                        </div>
+                    </div>
                 </div>
                 <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
             </dialog>
@@ -231,12 +252,13 @@
                             href="https://github.com/YolausGG/ProyectoFinal-GestionDeBovinos">Repositorio</a>
                     </div>
                     <div class="containerCarruselInfo">
-                        <div id="idImgCarrusel">
-                            <img class="imgCarrusel" src="/img/imgInfoEcommerceLogos.png" alt="Imagen del Carrusel" loading="lazy">
+                        <div id="idImgCarruselPrueba">
+                            <img class="imgCarrusel" src="/img/imgInfoEcommerceLogos.png" alt="Imagen del Carrusel"
+                                loading="lazy">
                         </div>
                         <div class="conainerFlechitasCarrusel">
-                            <img id="atras" src="/img/atras.png" alt="atras">
-                            <img id="adelante" src="/img/atras.png" alt="adelante">
+                            <img class="izqImgCarrusel" id="atrasPrueba" src="/img/atras.png" alt="atras">
+                            <img class="derImgCarrusel" id="adelantePrueba" src="/img/atras.png" alt="adelante">
                         </div>
                     </div>
                 </div>
