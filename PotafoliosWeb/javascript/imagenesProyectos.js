@@ -3,15 +3,16 @@ let imgsCarruselPrueba = [
     "/img/fichaBovino.png",
     "/img/HTMLLogo.png"
 ]
-let imgsCarruselGDB = [
+let imgsCarruselGDB = [    
+    "/img/HerramientasGDB.webp",
     "/img/fichaBovino.png",
-    "/img/JavaLogo.png",
-    "/img/MySQLLogo.png"
+    "/img/MySQLLogo.png",
 ]
 let imgsCarruselEcommerce = [
     "/img/ReactLogo.png",
     "/img/NodeJsLogo.png",
-    "/img/MySQLLogo.png"
+    "/img/MySQLLogo.png",
+    "/img/HerramientasEcommerce.webp"
 ]
 
 
