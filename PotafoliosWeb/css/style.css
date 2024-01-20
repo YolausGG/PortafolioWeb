@@ -211,6 +211,10 @@ h2 {
     border-radius: 10px;
 }
 
+.grid-item:hover {
+    scale: 1.1;
+}
+
 .grid-img {
     padding: 1rem;
     width: 156px;
@@ -255,6 +259,16 @@ h2 {
     background-position: center;
     background-size: cover;
     background-image: url('../img/PortadaEcommerce.webp')
+}
+
+#cardProyectProyectosDuranteLaCarrera {
+    color: white;
+    background-size: 100%;
+    background-image: url('../img/HerramientasProyectosDutanteLaCarrera.webp')
+}
+
+#cardProyectProyectosDuranteLaCarrera h3 {
+    text-shadow: 0px 0px 1px #1b1b1b;
 }
 
 .div-link-proyect {

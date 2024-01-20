@@ -1,9 +1,9 @@
-let imgsCarruselPrueba = [
-    "/img/imgInfoEcommerceLogos.png",
+let imgsCarruselProyectosDuranteLaCarrera = [
+    "/img/HerramientasProyectosDutanteLaCarrera.webp",
     "/img/fichaBovino.png",
     "/img/HTMLLogo.png"
 ]
-let imgsCarruselGDB = [    
+let imgsCarruselGDB = [
     "/img/HerramientasGDB.webp",
     "/img/fichaBovino.png",
     "/img/MySQLLogo.png",
@@ -34,14 +34,14 @@ cargarCarrusel = (nameProject) => {
         case "ECommerce":
             selectImgsCarrusel = imgsCarruselEcommerce
             break;
-        case "Prueba":
-            selectImgsCarrusel = imgsCarruselPrueba
+        case "ProyectosDuranteLaCarrera":
+            selectImgsCarrusel = imgsCarruselProyectosDuranteLaCarrera
             break;
         default:
             break;
     }
 
-
+    console.log('Lista seleccionada');
     console.log(selectImgsCarrusel);
 
     atras.addEventListener('click', function () {
