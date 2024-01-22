@@ -1,18 +1,24 @@
-let imgsCarruselProyectosDuranteLaCarrera = [
-    "/img/HerramientasProyectosDutanteLaCarrera.webp",
-    "/img/fichaBovino.png",
-    "/img/HTMLLogo.png"
-]
 let imgsCarruselGDB = [
     "/img/HerramientasGDB.webp",
     "/img/fichaBovino.png",
     "/img/MySQLLogo.png",
 ]
 let imgsCarruselEcommerce = [
+    "/img/HerramientasEcommerce.webp",
     "/img/ReactLogo.png",
     "/img/NodeJsLogo.png",
-    "/img/MySQLLogo.png",
-    "/img/HerramientasEcommerce.webp"
+    "/img/MySQLLogo.png"    
+]
+let imgsCarruselProyectosDuranteLaCarrera = [
+    "/img/HerramientasProyectosDutanteLaCarrera.webp",
+    "/img/fichaBovino.png",
+    "/img/HTMLLogo.png"
+]
+let imgsCarruselPortafoliosWeb = [
+    "/img/HerramientasPortafoliosWeb.webp",
+    "/img/HTMLLogo.png",
+    "/img/CSSLogo.png",
+    "/img/JSLogo.svg"   
 ]
 
 
@@ -26,7 +32,7 @@ cargarCarrusel = (nameProject) => {
     console.log(nameProject);
 
     let selectImgsCarrusel = []
-
+    
     switch (nameProject) {
         case "GDB":
             selectImgsCarrusel = imgsCarruselGDB
@@ -37,12 +43,12 @@ cargarCarrusel = (nameProject) => {
         case "ProyectosDuranteLaCarrera":
             selectImgsCarrusel = imgsCarruselProyectosDuranteLaCarrera
             break;
+        case "PortafoliosWeb":
+            selectImgsCarrusel = imgsCarruselPortafoliosWeb
+            break;
         default:
             break;
     }
-
-    console.log('Lista seleccionada');
-    console.log(selectImgsCarrusel);
 
     atras.addEventListener('click', function () {
         actual -= 1

@@ -186,7 +186,6 @@ h2 {
 
 .subtitle {
     font-size: 2.5rem;
-
     text-align: center;
 }
 
@@ -234,7 +233,7 @@ h2 {
     padding: 1rem 0 0 0;
     margin: 1rem;
     background-color: dimgrey;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: all 1s;
 }
 
@@ -264,11 +263,22 @@ h2 {
 #cardProyectProyectosDuranteLaCarrera {
     color: white;
     background-size: 100%;
-    background-image: url('../img/HerramientasProyectosDutanteLaCarrera.webp')
+    background-image: url('../img/HerramientasProyectosDutanteLaCarrera.webp');
 }
 
 #cardProyectProyectosDuranteLaCarrera h3 {
-    text-shadow: 0px 0px 1px #1b1b1b;
+    text-shadow: 
+    -1px -1px 2px black,
+    1px -1px 2px black,
+    1px 1px 2px black,
+    -1px 1px 2px black;
+    font-size: 1.2rem;
+}
+
+#cardProyectPortafoliosWeb {
+    color: black;
+    background-size: 100%;
+    background-image: url('../img/PortadaPortafoliosWeb.webp');
 }
 
 .div-link-proyect {
@@ -279,8 +289,7 @@ h2 {
     height: 3rem;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: rgb(67, 74, 82);
-
+    background-color: rgb(92, 0, 0);
 }
 
 .link-proyect {

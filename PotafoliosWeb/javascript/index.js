@@ -40,6 +40,9 @@ Array.prototype.forEach.call(btnsAbrirInfo, (btnAbrirInfo) => {
       if (btnAbrirInfo.id == "btnProyectosDuranteLaCarrera" && dialgoInfo.id == "dialogProyectosDuranteLaCarrera") {
         dialgoInfo.showModal()
       }
+      if (btnAbrirInfo.id == "btnPortafoliosWeb" && dialgoInfo.id == "dialogPortafoliosWeb") {
+        dialgoInfo.showModal()
+      }
     })
   })
 })

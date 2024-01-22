@@ -164,10 +164,11 @@
                             id="btnProyectosDuranteLaCarrera">Más Info.</a>
                     </div>
                 </div>
-                <div class="grid-item-proyect">
-                    <h3>Empresa</h3>
+                <div id="cardProyectPortafoliosWeb" class="grid-item-proyect">
+                    <h3>Este Portafolios</h3>
                     <div class="div-link-proyect">
-                        <a class="link-proyect" href="">Tesla</a>
+                        <a class="btnAbrirInfo link-proyect" onclick="cargarCarrusel('PortafoliosWeb')"
+                            id="btnPortafoliosWeb">Más Info.</a>
                     </div>
                 </div>
             </article>
@@ -265,11 +266,38 @@
                 </div>
                 <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
             </dialog>
+            <dialog id="dialogPortafoliosWeb">
+                <div class="containerInfo">
+                    <div class="containerInfoText">
+                        <h3 class="titleProyect">Portafolios Web</h3>
+                        <p>Este es el Repositorio de este mismo Portafolios.
+                            <br>
+                            Desarrollados con HTML, CSS y JavaSctipt desde Visual Estudio Code (VSC).
+                            <br>
+                            La idea con este Repositorio es que se pueda ver como esta hecho y que si
+                            alguien desea, saque ideas o fragmentos del código para su propio uso.
+                        </p>
+                        <a class="btnRepositorio"
+                            href="https://github.com/YolausGG/ProyectosDuranteLaCarrera">Repositorio</a>
+                    </div>
+                    <div class="containerCarruselInfo">
+                        <div id="idImgCarruselPortafoliosWeb">
+                            <img class="imgCarrusel" src="/img/HerramientasPortafoliosWeb.webp"
+                                alt="Imagen del Carrusel" loading="lazy">
+                        </div>
+                        <div class="conainerFlechitasCarrusel">
+                            <img class="izqImgCarrusel" id="atrasPortafoliosWeb" src="/img/atras.png" alt="atras">
+                            <img class="derImgCarrusel" id="adelantePortafoliosWeb" src="/img/atras.png" alt="adelante">
+                        </div>
+                    </div>
+                </div>
+                <button class="btnCerrarInfo"><i class="fi-br-cross"></i></button>
+            </dialog>
         </section>
     </main>
 
 
-    <div id="particles-js" class="container-fluid p-0 ">
+    <div id="particles-js" class="container-fluid p-0">
     </div>
 </body>
 
