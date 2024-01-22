@@ -21,7 +21,6 @@ let imgsCarruselPortafoliosWeb = [
     "/img/JSLogo.svg"   
 ]
 
-
 cargarCarrusel = (nameProject) => {
 
     let img = document.getElementById(`idImgCarrusel${nameProject}`)

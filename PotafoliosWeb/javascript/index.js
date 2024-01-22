@@ -3,7 +3,6 @@ particlesJS.load('particles-js', 'particlesjs-config.json', function () {
   console.log('callback - particles.js config loaded');
 });
 
-
 const toggleBtn = document.querySelector(".toggle-btn")
 const toggleBtnIcon = document.querySelector('.toggle-btn i')
 const dropDownMenu = document.querySelector(".dropdown_nav-menu")
@@ -16,8 +15,6 @@ toggleBtn.addEventListener("click", () => {
   toggleBtnIcon.classList = isOpen
     ? 'fi fi-br-cross'
     : 'fi fi-br-menu-burger'
-
-
 })
 
 const btnsCerrarInfo = document.getElementsByClassName("btnCerrarInfo")
