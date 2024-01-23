@@ -1,24 +1,25 @@
 let imgsCarruselGDB = [
     "/img/HerramientasGDB.webp",
-    "/img/fichaBovino.png",
-    "/img/MySQLLogo.png",
+    "/img/fichaBovino.webp",
+    "/img/MySQLLogo.webp",
 ]
 let imgsCarruselEcommerce = [
     "/img/HerramientasEcommerce.webp",
-    "/img/ReactLogo.png",
-    "/img/NodeJsLogo.png",
-    "/img/MySQLLogo.png"    
+    "/img/ReactLogo.webp",
+    "/img/NodeJsLogo.webp",
+    "/img/MySQLLogo.webp"    
 ]
 let imgsCarruselProyectosDuranteLaCarrera = [
     "/img/HerramientasProyectosDutanteLaCarrera.webp",
-    "/img/fichaBovino.png",
-    "/img/HTMLLogo.png"
+    "/img/imgMutualistaSF.webp",
+    "/img/fichaBovino.webp",
+    "/img/HTMLLogo.webp"
 ]
 let imgsCarruselPortafoliosWeb = [
     "/img/HerramientasPortafoliosWeb.webp",
-    "/img/HTMLLogo.png",
-    "/img/CSSLogo.png",
-    "/img/JSLogo.svg"   
+    "/img/HTMLLogo.webp",
+    "/img/CSSLogo.webp",
+    "/img/JSLogo.webp"   
 ]
 
 cargarCarrusel = (nameProject) => {
