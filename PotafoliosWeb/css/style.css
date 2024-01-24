@@ -435,9 +435,10 @@ dialog {
     margin: 1.5rem;
 }
 .abautMeContainer p {
-    max-width: 680px;
+    max-width: 580px;
     font-size: 1.2rem;
     text-align: justify;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 .mianFooter{
