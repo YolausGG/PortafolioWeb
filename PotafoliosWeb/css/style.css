@@ -434,14 +434,30 @@ dialog {
     text-align: center;
     margin: 1.5rem;
 }
+
 .abautMeContainer p {
     max-width: 580px;
     font-size: 1.2rem;
-    text-align: justify;
-    margin: 1rem 0rem 1rem 0rem;
+    text-align: justify;    
 }
 
-.mianFooter{
+.abautMeContainer div {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgAbautMe {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+    margin: 22px;
+}
+
+.mianFooter {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -449,19 +465,24 @@ dialog {
     width: 100%;
     background-color: rgb(92, 0, 0);
     box-shadow: 0px 0px 5px white;
-    padding: 1rem 2rem 1rem 2rem;    
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 1rem;
 }
 
 .mianFooter li {
     margin: 5px
 }
+
 .mianFooter a {
     display: flex;
     gap: 5px;
 }
-.iconFooter{
+
+.iconFooter {
     width: 20px;
 }
+
+
 
 @media (max-width: 830px) {
 
