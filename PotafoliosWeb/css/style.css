@@ -143,8 +143,9 @@ h2 {
 }
 
 .presetacion p {
-    margin: 1rem 0 0 2rem;
+    margin: 1rem 0rem 0rem 2rem;
     font-size: 1.5rem;
+    text-wrap: wrap;
 }
 
 .presetacion figure {
@@ -436,6 +437,7 @@ dialog {
 }
 
 .abautMeContainer p {
+    text-wrap: wrap;
     max-width: 580px;
     font-size: 1.2rem;
     text-align: justify;    
@@ -459,8 +461,8 @@ dialog {
 
 .mianFooter {
     display: flex;
-    justify-content: start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
     height: 20vh;
     width: 100%;
     background-color: rgb(92, 0, 0);
