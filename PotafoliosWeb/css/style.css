@@ -209,6 +209,7 @@ h2 {
     padding: 0.7rem;
     background-color: rgba(150, 0, 0, 0.247);
     border-radius: 10px;
+    transition: 0.1s;
 }
 
 .grid-item:hover {
@@ -217,8 +218,7 @@ h2 {
 
 .grid-img {
     padding: 1rem;
-    width: 156px;
-    height: 156px;
+    width: 105px;
     border-radius: 8px;
     background-color: rgb(190, 190, 190);
 }
@@ -343,7 +343,7 @@ dialog {
     flex-grow: 3;
     flex-direction: row;
     height: 100%;
-    gap: 28px;
+    gap: 1.5rem;
     padding: 28px;
 }
 
@@ -356,7 +356,7 @@ dialog {
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .containerInfo p {
@@ -366,14 +366,6 @@ dialog {
     font-family: 'Inter', sans-serif;
 }
 
-.infoProyectImage {
-    max-width: 55%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    transition: 0.2s;
-    background-color: black;
-}
 
 .btnRepositorio {
     color: white;
@@ -392,8 +384,11 @@ dialog {
 }
 
 .containerCarruselInfo {
+    display: flex;
     position: relative;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .conainerFlechitasCarrusel {
@@ -408,8 +403,7 @@ dialog {
 }
 
 .imgCarrusel {
-    width: 350px;
-    height: 350px;
+    width: 22rem;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -440,7 +434,7 @@ dialog {
     text-wrap: wrap;
     max-width: 580px;
     font-size: 1.2rem;
-    text-align: justify;    
+    text-align: justify;
 }
 
 .abautMeContainer div {
@@ -484,7 +478,9 @@ dialog {
     width: 20px;
 }
 
-
+#stg-WP {
+    white-space: nowrap;
+}
 
 @media (max-width: 830px) {
 
@@ -596,17 +592,25 @@ dialog {
     .containerInfo {
         flex-direction: column;
         align-items: center;
+        padding: 20px 12px;
+        margin-top: 1rem;
     }
 
-    .infoProyectImage {
-        max-width: 100%;
+    .containerInfoText p {
+        font-size: small;
     }
+
 }
 
 @media (max-width: 650px) {
-
     .dropdown_nav-menu {
         left: 0.5rem;
         width: unset;
+    }
+
+
+    .imgCarrusel {
+        width: 14rem;            
+        margin-bottom: 1rem;
     }
 }
