@@ -103,6 +103,10 @@ a:active {
     display: none;
 }
 
+.header-presentacion {
+    align-self: self-start;
+}
+
 .header-presentacion h1 {
     font-size: 3rem;
 }
@@ -118,21 +122,17 @@ a:active {
 }
 
 .presetacion header,
-figure {
+figure, p {
     margin: 0 2rem;
 }
 
 .div-info {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
     width: 50%;
-}
-
-.div-info div {
-    margin: 2rem 2rem;
-    display: flex;
-    justify-content: center;
+    margin: 1rem;
 }
 
 p,
@@ -143,17 +143,21 @@ h2 {
 }
 
 .presetacion p {
-    margin: 1rem 0rem 0rem 2rem;
     font-size: 1.5rem;
     text-wrap: wrap;
 }
 
+.div-info a{
+    margin: 2rem 0 0 0;
+}
 .presetacion figure {
     padding: 0.7rem;
 }
 
 .btn-contacto {
     font-size: 1.5rem;
+    width: 200px;
+    height: 100px;
     padding: 2rem;
     text-align: center;
     background-color: rgb(92, 0, 0);
@@ -210,6 +214,7 @@ h2 {
     background-color: rgba(150, 0, 0, 0.247);
     border-radius: 10px;
     transition: 0.1s;
+    text-align: center;
 }
 
 .grid-item:hover {
@@ -219,6 +224,7 @@ h2 {
 .grid-img {
     padding: 1rem;
     width: 105px;
+    height: 105px;
     border-radius: 8px;
     background-color: rgb(190, 190, 190);
 }
@@ -276,10 +282,10 @@ h2 {
     font-size: 1.2rem;
 }
 
-#cardProyectPortafoliosWeb {
+#cardProyectPortafolioWeb {
     color: black;
     background-size: 100%;
-    background-image: url('../img/PortadaPortafoliosWeb.webp');
+    background-image: url('../img/PortadaPortafolioWeb.webp');
 }
 
 .div-link-proyect {
@@ -478,6 +484,10 @@ dialog {
     width: 20px;
 }
 
+#icon-github {
+    border-radius: 5px;
+}
+
 #stg-WP {
     white-space: nowrap;
 }
@@ -577,6 +587,10 @@ dialog {
         align-items: center;
     }
 
+    .header-presentacion {
+        align-self: center;
+    }
+
     .header-presentacion h1 {
         font-size: 3rem;
     }
@@ -610,7 +624,7 @@ dialog {
 
 
     .imgCarrusel {
-        width: 14rem;            
+        width: 14rem;
         margin-bottom: 1rem;
     }
 }

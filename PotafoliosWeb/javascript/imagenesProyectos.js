@@ -10,8 +10,8 @@ let imgsCarruselProyectosDuranteLaCarrera = [
     "/img/imgMutualistaSF.webp",
     "/img/fichaBovino.webp"
 ]
-let imgsCarruselPortafoliosWeb = [
-    "/img/HerramientasPortafoliosWeb.webp"
+let imgsCarruselPortafolioWeb = [
+    "/img/HerramientasPortafolioWeb.webp"
 ]
 
 cargarCarrusel = (nameProject) => {
@@ -35,8 +35,8 @@ cargarCarrusel = (nameProject) => {
         case "ProyectosDuranteLaCarrera":
             selectImgsCarrusel = imgsCarruselProyectosDuranteLaCarrera
             break;
-        case "PortafoliosWeb":
-            selectImgsCarrusel = imgsCarruselPortafoliosWeb
+        case "PortafolioWeb":
+            selectImgsCarrusel = imgsCarruselPortafolioWeb
             break;
         default:
             break;
