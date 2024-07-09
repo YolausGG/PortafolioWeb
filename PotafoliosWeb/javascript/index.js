@@ -51,4 +51,3 @@ Array.prototype.forEach.call(btnsCerrarInfo, (btnCerrarInfo) => {
     });
   });
 });
-
